@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Audio recordings and generated signals
+*.wav
+*.mp3
+*.flac
+
+# Old audio recordings
+/Audios EX/
+
+# Generated data
+data/
+results/
+plots/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.log
+
+# Experimental generated outputs
+channel_estimation_lab/output/*
+!channel_estimation_lab/output/*.png
+
+constellation_lab/output/*
+!constellation_lab/output/*.png
+
+equalization_lab/output/*
+
+# Generated transmission metadata
+/transmission.meta.json
+
+# NumPy binary experiment data
+*.npz
